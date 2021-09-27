@@ -1,0 +1,263 @@
+<div class="manufacturing-bg">
+    <div class="caption">
+      <span class="border">MANUFACTURING</span>
+    </div>
+  </div>
+  <div id="manufacturing-page">
+    <div class="container" id="feature-block" style="padding-top:80px;">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 id="title">Our Capabilities</h4>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="clickable" id="injection-molding" (click)="toggleInjectionMolding()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-cog"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                Injection Molding
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="injection-molding-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="extrusion" (click)="toggleExtrusion()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-filter"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                Extrusion
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="extrusion-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="thermoforming" (click)="toggleThermoforming()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-fire"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                Thermoforming
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="thermoforming-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="info-row1" id="info-row" style="display:none; padding-bottom:50px;">
+        <div id="injection-molding-content">
+            <h2 class="content-title">Injection Molding</h2>
+            <p>Atacama has over thirty years experience in low and high volume injection molding production.  We specialize in rapid prototype tooling development and close collaboration with our customers to ensure designs are manufacturable and products meet quality expectations.  Our capabilities include single cavity tooling and low volume production through high volume manufacturing and assembly.
+            </p>
+            <p>Worldwide tooling and manufacturing facilities provide customers with the ability to optimize the cost and lead time for their projects.  Tooling and manufacturing facilities in Ningbo China augment US based tooling and molding facilities in Corvallis, Oregon.
+            </p>
+        </div>
+        <div id="extrusion-content">
+          <h2 class="content-title">Extrusion</h2>
+          <p>Atacama has expertise and capability to cost effectively custom develop material formulas for customer projects.  Whether the goal is to reduce cost or optimize properties we have the ability to create custom formulas and feed them into our manufacturing processes to produce components.  This is a distinct advantage for our customers as it great reduces time to market and enables product solutions which can not be obtained with off the shelf materials.
+          </p>
+        </div>
+        <div id="thermoforming-content">
+          <h2 class="content-title">Thermoforming</h2>
+          <p>Atacama Ningbo has a state of the art thermforming operation capable of producing high volume thermforming products for customers. Atacama Corvallis has prototype and low volume thermoforming capabilities to assist customers with product development and low volume production.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="clickable" id="tooling" (click)="toggleTooling()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-wrench"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                Pre-Production Manufacturing
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="tooling-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="production" (click)="toggleProduction()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-bar-chart-o"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                High volume production (US & Asia)
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="production-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="construction" (click)="toggleConstruction()">
+            <div class="col-md-3">
+              <ul class="list">
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-globe"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                Tool construction in US & Asia
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="construction-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="info-row2" id="info-row" style="display:none; padding-bottom:50px;">
+        <div id="tooling-content">
+          <h2 class="content-title">Pre-Production Manufacturing</h2>
+          <p>Atacama utilizes 3-D printing to enable rapid design evolution which saves considerable time to market and cost on the front end of a project.  Rapid prototype tooling is typically constructed in 5-6 week lead-times which enables the production of low volume products for customers.  Production tooling can be enabled locally in the US or Asia dependent on economics or customer preference. (See Tool Construction in US & Asia for additional information)
+          </p>
+        </div>
+        <div id="production-content">
+          <h2 class="content-title">High volume production</h2>
+          <p>Atacama produces 30 million components per year our US manufacturing facility and 100+ million in our Asia facilities.  Our culture is built around quality and continuous improvement.  Through strong engineering principles and tools and an effective quality system we ensure customers expectations are met or exceeded.
+          </p>
+        </div>
+        <div id="construction-content">
+          <h2 class="content-title">Tool construction</h2>
+          <p>Atacama's US tooling partners build high quality single and multi-cavity tooling for customers.  Cold and hot runner tooling can be constructed and our focus is to provide the highest level of quality and service possible.
+          </p>
+          <p>A capable network of Asia tooling suppliers has been assembled which provide high quality tooling at exceptional prices to customers.  Customers have the choice of building tools in Asia and running the product in the US or building and running parts in Asia.
+          </p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-4">
+          <div class="clickable" id="gmp" (click)="toggleGMP()">
+            <div class="col-md-3">
+              <ul class="list">
+                <!-- Facebook Icon -->
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-check"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <br>
+              <p class="content">
+                GMP compliant manufacturing
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="gmp-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="us" (click)="toggleUS()">
+            <div class="col-md-3">
+              <ul class="list">
+                <!-- Facebook Icon -->
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-building-o"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                17,000 square foot US manufacturing facility
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="us-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="clickable" id="asia" (click)="toggleAsia()">
+            <div class="col-md-3">
+              <ul class="list">
+                <!-- Facebook Icon -->
+                <li class="list__item social">
+                  <div class="list__icon list__icon_social"><i class="icon_social fa fa-building"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9 manufacturing-content">
+              <p class="content">
+                150,000 square foot Asia manufacturing facility
+              </p>
+            </div>
+          </div>
+          <div class="border-top" id="asia-border" style="display: none;">
+            <div class="arrow_box"></div>
+          </div>
+        </div>
+      </div>
+      <div class="info-row3" id="info-row" style="display:none">
+        <div id="gmp-content">
+          <h2 class="content-title">GMP Compliant Manufacturing</h2>
+          <p>Atacama's US and Asia facilities conform to GMP standards for manufacturing.  Molding is done in a white room environment with gowning requirements and procedures.</p>
+        </div>
+        <div id="us-content">
+          <h2 class="content-title">US Manufacturing</h2>
+          <div>
+              <img src="/assets/images/about/usa-m.jpg" class="manufacturing-image" />
+          </div>
+        </div>
+        <div id="asia-content">
+          <h2 class="content-title">Asia Manufacturing</h2>
+          <img src="/assets/images/about/asia-m.jpg" class="manufacturing-image" />
+        </div>
+      </div>
+    </div>
+  </div>
+  

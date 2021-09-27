@@ -5,9 +5,29 @@
   <title>Atacama</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:url" content="https://atacamausa.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Atacama" />
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <script src="/assets/js/three.min.js"></script>
+  <script src="/assets/js/bigSlide.js"></script>
+  <script src="/assets/js/animateHome.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="/assets/styles/bootstrap.css" rel="stylesheet">
+
 </head>
-<body>
+<body id="app-body">
   <app-root></app-root>
+  <script>
+    $(document).ready(function() {
+      $('.menu-link').bigSlide();
+    });
+  </script>
 </body>
 </html>
+

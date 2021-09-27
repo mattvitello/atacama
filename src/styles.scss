@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+  a {
+    color: #333;
+    /*font-family:"Abel";*/
+}
+
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
